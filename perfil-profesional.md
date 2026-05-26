@@ -28,21 +28,29 @@ Profesional proactivo y analítico con perfil técnico avanzado y más de 15 añ
 
 ### Anubix Tech
 - **Cargo**: Google Cloud Engineer
-- **Período**: Septiembre 2024 - Presente
-- **Ubicación**: Argentina
-- **Descripción**:
-  - Diseño e implementación de soluciones en Google Cloud Platform
-  - Arquitectura de infraestructura cloud
-  - Gestión de proyectos cloud
+- **Período**: Septiembre 2024 - Presente (1 año 9 meses)
+- **Ubicación**: Buenos Aires y alrededores, en remoto
+- **Descripción**: Diseño, administración y optimización de infraestructura cloud en entornos multi-proyecto de GCP para diversos clientes, garantizando alta disponibilidad, seguridad y eficiencia de costos.
+- **Principales responsabilidades y logros**:
+  - **Estructura y Seguridad (IAM)**: Administración de Organizaciones, Carpetas y Proyectos para aislamiento seguro de clientes. Implementación del principio de menor privilegio (IAM) con roles personalizados y centralización de accesos mediante Cloud Identity y Workforce Identity Federation.
+  - **Cómputo y Contenedores**: Despliegue y mantenimiento de instancias en Compute Engine, imágenes personalizadas y discos persistentes. Configuración de alta disponibilidad con MIGs, autoescalado y balanceadores de carga (HTTP/S, TCP/UDP). Orquestación de contenedores Docker en GKE y Cloud Run.
+  - **Redes y Conectividad**: Diseño de redes VPC, subredes, firewalls, rutas y Shared VPC. Implementación de conectividad segura mediante HA-VPN y Cloud NAT para instancias privadas, gestión de Cloud DNS.
+  - **Almacenamiento y Bases de Datos**: Gestión de buckets en Cloud Storage con políticas de ciclo de vida. Configuración, backup y alta disponibilidad en Cloud SQL (MySQL/MariaDB, PostgreSQL) y soluciones de caché con Memorystore (Redis).
+  - **Operaciones y Soporte**: Monitoreo y observabilidad avanzada mediante Google Cloud Operations Suite y Cloud Logging. Soporte técnico especializado Nivel 2/3 para resolución de incidentes complejos de infraestructura y rendimiento.
 
 ### Fusion Argentina
 - **Cargo**: Google Workspace Administrator
 - **Período**: Agosto 2022 - Septiembre 2024 (2 años 2 meses)
-- **Ubicación**: Córdoba, Argentina
-- **Descripción**:
-  - Administración de entornos Google Workspace empresariales
-  - Gestión de usuarios, políticas y seguridad
-  - Implementación de herramientas de productividad
+- **Ubicación**: Buenos Aires y alrededores, en remoto
+- **Descripción**: Administración integral del ciclo de vida de usuarios y seguridad en entornos Google Workspace empresariales.
+- **Principales responsabilidades y logros**:
+  - **Gestión de Usuarios**: Administración del ciclo de vida de usuarios, estructura organizacional, gestión de roles y permisos.
+  - **Seguridad de Acceso**: Implementación de autenticación multifactor (2FA), Single Sign-On (SSO) e Workforce Identity Federation (IdP).
+  - **Políticas de Seguridad**: Implementación de políticas DLP (Data Loss Prevention) para prevención de pérdida de datos. Configuración de Email Authentication (SPF, DKIM, DMARC).
+  - **Gestión de Gmail**: Configuración de rutas de correo, alias, firmas, listas y grupos de distribución, gestión de spam y configuraciones avanzadas.
+  - **Colaboración y Productividad**: Administración de Google Drive, Share Drives, Google Meet y Calendar. Gestión de políticas de videoconferencia, recursos de salas y calendarios compartidos interempresariales.
+  - **Migraciones de Datos**: Migraciones de correo, contactos y calendarios desde plataformas heredadas (Exchange, Microsoft 365, IMAP/POP) hacia Google Workspace utilizando herramientas como GWMMO o GSMME.
+  - **Soporte Técnico**: Resolución de incidentes complejos Nivel 2/3 reportados por clientes relacionados con el ecosistema de Google Workspace.
 
 ### CYAC Ingeniería
 - **Cargo**: Jr Project Manager / Team Coordinator
@@ -178,38 +186,131 @@ Profesional proactivo y analítico con perfil técnico avanzado y más de 15 añ
 
 ## Habilidades Técnicas
 
-### Cloud & Infraestructura
-- Google Cloud Platform (GCP)
-- Terraform (Infrastructure as Code)
-- Cloud Run
-- Compute Engine
-- Load Balancing
-- Cloud Networking (NCC, VPC)
-- Google Cloud Operations Suite (Monitoring & Logging)
+### Google Cloud Platform (GCP)
 
-### Administración
-- Google Workspace Administration
-- Windows Server
-- Active Directory (AD)
-- Group Policy Objects (GPO)
-- VMware (nivel junior)
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| GCP General (Console, gcloud CLI) | 4/5 | |
+| Identity and Access Management (IAM) | 4/5 | Service accounts, roles, bindings, Cloud Identity |
+| VPC y Subnets | 4/5 | Diseño de redes, firewalls, rutas |
+| Compute Engine | 3/5 | VMs, imágenes personalizadas, MIGs, autoescalado |
+| Cloud Run | 3/5 | Deploy de aplicaciones serverless |
+| Cloud SQL | 3/5 | MySQL, MariaDB, PostgreSQL, migraciones |
+| Cloud Storage (GCS) | 3/5 | Buckets, lifecycle policies |
+| Shared VPC | 3/5 | Conectividad entre proyectos |
+| Cloud NAT | 3/5 | Conectividad segura para instancias privadas |
+| Load Balancing | 3/5 | HTTP/S, TCP/UDP |
+| Memorystore (Redis) | 3/5 | Soluciones de caché |
+| Cloud Functions | 2/5 | |
+| BigQuery | 2/5 | Consultas básicas, datasets |
+| Cloud Interconnect | 2/5 | Conectividad dedicada |
+| Pub/Sub | 2/5 | |
+| Artifact Registry | 2/5 | |
+| Network Connectivity Center (NCC) | 2/5 | |
 
-### Telecomunicaciones
-- Redes de transporte: DWDM, PTN, SDH
-- Redes de acceso: VDSL, GPON, FTTH
-- IP/Datacom
-- Equipos Huawei y Alcatel
-- Enlaces PtP y PtMP (Ubiquiti, Mikrotik)
-- ISP Wireless
+### Kubernetes y Contenedores
 
-### Redes & Sistemas
-- Cableado estructurado
-- Configuración de routers y switches
-- Sistemas CCTV e IP
-- DVR/NVR
-- Alarmas monitoreadas
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| GKE (Google Kubernetes Engine) | 3/5 | Clusters, deployments, pods, alta disponibilidad |
+| Kubernetes (kubectl) | 3/5 | |
+| Docker | 3/5 | Dockerfile, docker-compose, containerización |
+
+### Observabilidad
+
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| Cloud Monitoring | 3/5 | Alertas, dashboards, métricas |
+| Cloud Logging | 3/5 | Consultas de logs, análisis |
+| Notification Channels | 2/5 | |
+
+### Infrastructure as Code y CI/CD
+
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| Terraform | 3/5 | Módulos, plan, apply, state management |
+| Cloud Build | 2/5 | |
+| ArgoCD | 2/5 | GitOps, integración con GitHub |
+| GitHub Actions | 2/5 | |
+
+### Google Workspace Administration
+
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| Google Workspace Admin | 4/5 | Usuarios, grupos, políticas, seguridad, DLP |
+| Gmail corporativo | 4/5 | Rutas, alias, firmas, listas, distribución, SPF/DKIM/DMARC |
+| Google Drive y Share Drives | 3/5 | Gestión de almacenamiento y colaboración |
+| Google Meet y Calendar | 3/5 | Políticas de videoconferencia, recursos de salas |
+| Cloud Identity / Workforce Identity Federation | 3/5 | SSO, autenticación multifactor |
+| Migraciones de Datos | 3/5 | GWMMO, GSMME, Exchange, Microsoft 365 |
+
+### Administración de Sistemas
+
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| Linux Administration | 3/5 | Debian/Ubuntu, bash scripting, systemctl |
+| Windows Server | 2/5 | |
+| Active Directory / GPO | 2/5 | |
+| VMware | 2/5 | Administración básica |
+
+### Desarrollo y Scripting
+
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| Bash/Shell Scripting | 3/5 | Automatización de tareas |
+| YAML | 3/5 | Configuración de K8s, Terraform |
+| SQL | 3/5 | MySQL, PostgreSQL, consultas |
+| JSON | 3/5 | |
+| Python | 2/5 | Scripts de automatización |
+
+### Bases de Datos
+
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| MySQL | 3/5 | Administración, queries, backup |
+| PostgreSQL | 2/5 | |
+| Database Migration Service | 2/5 | |
+
+### Telecomunicaciones - Transporte Óptico
+
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| DWDM (Multiplexación WDM) | 4/5 | Diseño de ingeniería, instalación y puesta en marcha de secciones WDM |
+| Instalación y tendido de fibra | 4/5 | |
+| Huawei OptiX/OSN (DWDM/SDH) | 4/5 | OSN 1800, OSN 8800, OSN 9800 |
+| Documentación técnica | 4/5 | Relevamientos, ingeniería, conformes a obra |
+| Commissioning y Puesta en Marcha | 4/5 | Comisionamiento completo de equipos de transmisión |
+| Coordinación de cuadrillas | 4/5 | Gestión de equipos propios y contratistas |
+| Protocolos de aceptación (ATP) | 4/5 | Confección y supervisión de aceptaciones |
+| SDH/SONET | 3/5 | Instalación, expansión y mantenimiento |
+| Mediciones OTDR | 3/5 | |
+| Empalme por fusión | 3/5 | |
+| Certificación de fibras | 3/5 | |
+| Huawei PTN | 3/5 | PTN 950, PTN 3900 |
+| GPON/FTTH | 3/5 | Instalación de OLT/ONT, certificación de fibras |
+| ISP Wireless | 3/5 | Instalación PtP/PtMP con equipos Ubiquiti y Mikrotik |
+| Gestión de NOC | 3/5 | Monitoreo de red, gestión de alarmas |
+| Huawei iManager U2000 | 3/5 | Sistema de gestión de red |
+| PTN/MPLS-TP | 3/5 | Implementación de redes de paquetes de transporte |
+| Huawei NE40E | 3/5 | Routers de backbone |
+| OTN (Optical Transport Network) | 2/5 | Conocimientos básicos de arquitectura ODU/OTU |
+| VDSL | 2/5 | Instalación y configuración de DSLAM y CPE |
+| Alcatel/Nokia | 2/5 | Equipos de transporte y radio |
+| Radioenlaces - Microondas | 2/5 | Instalación de radioenlaces punto a punto |
+| Configuración de antenas | 2/5 | |
+
+### Redes & Sistemas Heredados
+
+| Habilidad | Nivel | Descripción |
+|-----------|:-----:|-------------|
+| Cableado estructurado | 3/5 | |
+| Configuración de routers y switches | 3/5 | |
+| Sistemas CCTV e IP | 2/5 | |
+| DVR/NVR | 2/5 | |
+| Alarmas monitoreadas | 2/5 | |
 
 ### Herramientas
+
 - Microsoft Office / Excel (avanzado)
 - Google Sheets (funciones y fórmulas avanzadas)
 - Documentación técnica
@@ -257,6 +358,22 @@ Profesional proactivo y analítico con perfil técnico avanzado y más de 15 añ
 
 ### Google Cloud - Expiradas
 - **Professional Google Workspace Administrator Certification** - Expirada Octubre 2025
+
+### Skill Badges - Google Cloud (2024-2025)
+- Developing Applications with Cloud Run
+- Select a Google Cloud Database
+- Connecting Cloud Networks with NCC
+- Build Infrastructure with Terraform on Google Cloud
+- Develop Your Google Cloud Network
+- Get Started with Google Workspace Tools
+- Implement Load Balancing on Compute Engine
+- Monitor and Log with Google Cloud Operations Suite
+- Set Up an App Dev Environment on Google Cloud
+- Use Functions, Formulas, and Charts in Google Sheets
+
+### Formación en Telecomunicaciones
+- Técnico Electrónico (cursado hasta 4to año - E.E.T. N° 464 "Ing. Dr. Manuel Bahía")
+- Licenciatura en Ciencias de la Computación (cursado hasta 2do año - UNR)
 
 ### Idiomas
 - **EF SET Certificate** - Nivel C1 Inglés
